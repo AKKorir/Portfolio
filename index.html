@@ -4,47 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Andrew's Portfolio</title>
 </head>
 <body>
-    <!-- main container start -->
-     <div class="main-container">
-        <!-- Aside start -->
-         <div class="aside">
-           <div class="logo">
-            <a href="#" ><span>A</span>tlas</a>
-           </div>
-           <div class="nav-toggler">
-            <span>
-                
-            </span>
-
-           </div>
-           <ul class="nav">
-            <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="#" ><i class="fa fa-user"></i>About</a></li>
-            <li><a href="#" ><i class="fa fa-list"></i>Services</a></li>
-            <li><a href="#" ><i class="fa fa-briefcase"></i>Portfolio</a></li>
-            <li><a href="#" ><i class="fa fa-comments"></i>Contact</a></li>
-           </ul>
-         </div>
-
-        <!-- Aside end -->
-         <!-- Main Content Start -->
-          <div class="main-content">
-            <!-- home section start -->
-             <section class="home section">
-                Home
-             </section>
-
-
-            <!-- home section end -->
+  <section class="header">
+    <div class="logo"></div>
+    <div class="side">
+      <a href="#" class="href">Home</a>
+      <a href="#" class="href">About</a>
+      <a href="#" class="href">Skills</a>
+      <a href="#" class="href">Projects</a>
+      <a href="#" class="href">contact</a>
+    </div>
+  </section>
+  <section class="home">
+    <div class="home-container">
+      <div class="home-image">
+        <img src="/image/Andrew Chelimo.jpg" alt="Profile photo">
+      </div>
+      <div class="home-text">
+      <h1>Welcome!</h1>
+      <h2>I'm Andrew Chelimo</h2>
+      <p>A passionate IT and business professional with a background in Business Information Technology.
+      I enjoy creating smart digital solutions — from web applications to blockchain-based innovations —
+      that merge technology and business to drive real-world impact.</p>
+      </div>
+    </div>
+    <!-- about section -->
+    <div class="about-container">
+      <h2 class="timeline-title">My Journey</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>High School</h3>
+            <span>2016-2019</span>
+            <p>Completed Secondary School Education From Sacho High school, popularly Known for its stunning Rift Valley Escapment Views.</p>
           </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>University</h3>
+            <span>2020-2025</span>
+            <p>Graduated with a Bachelor's degree in Business Information Technology (BBIT). Developed a strong foundation in Technology, Business and Computer Networks</p>
 
-         <!-- Main Content end -->
-     </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Internship</h3>
+            <span>Feb 2024- May 2024</span>
+            <p>Worked as an IT intern focusing on software support, android development, system documentationand proces automation.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Accountant</h3>
+            <span>Feb 2025- Sept 2025</span>
+            <p>Worked as an accountant dealing with accounts receivable, accounts payable, balancing of accounts and petty cash vouchers in a well established environment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- skill section -->
+   <section class="skill-section">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card" onclick="toggleSkills(this)">
+        <h3>Programming</h3>
+        <ul class="skills-list">
+          <li>HTML, CSS, JavaScript</li>
+          <li>PHP & MySQL</li>
+          <li>Kotlin (Android)</li>
+          <li>Python (Basics)</li>
+        </ul>
+      </div>
+      <div class="skill-card" onclick="toggleSkills(this)">
+        <h3>Design & UI/UX</h3>
+        <ul class="skills-list">
+          <li>Figma, Adobe XD</li>
+          <li>Responsive Design</li>
+          <li>Wireframing & Prototyping</li>
+          <li>Color Theory & Typography</li>
+        </ul>
+      </div>
+      <div class="skill-card" onclick="toggleSkills(this)">
+        <h3>Business & Analytics</h3>
+        <ul class="skills-list">
+          <li>Financial Analysis</li>
+          <li>Power BI & Excel Automation</li>
+          <li>Market Research</li>
+          <li>Project Management</li>
+        </ul>
+      </div>
+      <div class="skill-card" onclick="toggleSkills(this)">
+        <h3>Soft Skills</h3>
+        <ul class="skills-list">
+          <li>Leadership & Collaboration</li>
+          <li>Problem Solving</li>
+          <li>Communication</li>
+        </ul>
+      </div>
+    </div>
+   </section>
+
 
     <!-- JS files -->
      <script src="js/script.js"></script>
