@@ -27,10 +27,14 @@ body{
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     border-radius: 20px;
     padding: 40px 60px;
-    max-width: 1200px;
+    max-width: auto;
     width: 90%;
+    height: 600px;
+    align-content: center;
     gap: 40px;
     animation: fadeIn 1s ease-in-out;
+    margin: 80px auto;
+    padding: 0 20px;
 
 }
 .home-image{
@@ -147,7 +151,7 @@ body{
 .skill-grid{
     display:flex;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    gap: 30px;
+    gap: 50px;
 }
 .skill-card{
     background: white;
